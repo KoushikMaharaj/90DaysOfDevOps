@@ -61,6 +61,4 @@
   8. #### Monitoring tool
      Monitoring tool is used to monitor systems, servers, networks, and storage infrastructure. Tools like grafana, nagios etc…
 
-_#90daysOfDevOps_
-
-~ Koushik Maharaj :)
+[Next Day →](../day-2/README.md)
