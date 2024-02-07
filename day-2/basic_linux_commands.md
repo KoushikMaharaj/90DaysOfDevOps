@@ -18,7 +18,7 @@ Examples:
 ![Alt text](images/ls%20-i.png)
 
 - ``` ls -d */``` --> list only directories.(we can also specify a pattern)
-![Alt text](image.png)
+![Alt text](images/dir%20listing.png)
 
 ### Directory Commands
 - ```pwd``` --> shows present working directory
@@ -39,7 +39,7 @@ Examples:
 
 
 - ``` cd ../..``` --> Change directory to 2 levels back.
-![Alt text](image.png)
+![Alt text](images/go%20to%20back%202%20dir.png)
 
 - ``` mkdir  directoryName``` --> to make a directory in a specific location
 ![Alt text](images/mkdir%20dirName.png)
