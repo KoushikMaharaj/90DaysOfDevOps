@@ -1,4 +1,4 @@
-# Basic Linux Commands
+# Basic Linux Commands Part 1
 
 ### listing command
 ```ls <options> <arguments>``` -> list all sub directories and file in present directory

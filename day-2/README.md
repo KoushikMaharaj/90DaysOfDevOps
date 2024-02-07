@@ -1,4 +1,4 @@
-# Basic linux Commands
+# Basic linux Commands Part 1
 ### On Day 2 learn basic linux commands as
 - listing contents of directory
 - view present working directory
@@ -9,4 +9,4 @@
 
 ***Note***: [Please check for reference](./basic_linux_commands.md)
 
-[← Previous Day](../day-1/README.md)
+[← Previous Day](../day-1/README.md) | [Next Day →](../day-3/README.md)
