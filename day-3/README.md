@@ -7,6 +7,6 @@
 - check commands which you have run till now.
 - difference between fruits.txt and Colors.txt file
 
-***Note***: [Please check reference](./basic_linux_commands.md)
+***Note***: [Please check for reference](./basic_linux_commands.md)
 
 [← Previous Day](../day-2/README.md) | [Next Day →](../day-4/README.md)
