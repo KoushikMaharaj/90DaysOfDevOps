@@ -2,7 +2,7 @@
 ### User Management
 - ```cat /etc/passwd``` -> this command shows list of all users in system
 
-    ![Alt text](image-2.png)
+    ![Alt text](./images/image-2.png)
 
     The info about user is in specific format as:
     ```
@@ -11,34 +11,34 @@
 
 - ```id <username>``` -> by using this command we can get id of user
 
-    ![Alt text](image-3.png)
+    ![Alt text](./images/image-3.png)
 
 - ```sudo useradd -m <username>``` -> this will create user with mentioned username
 
-    ![Alt text](image-4.png)
+    ![Alt text](./images/image-4.png)
 
 - ```passwd <username>``` -> this will set password of user 
 
-    ![Alt text](image-5.png)
+    ![Alt text](./images/image-5.png)
 
 - ```sudo userdel -r <username>``` -> this command deletes mentioned user. If the user is part of a group then it will not be deleted directly, hence we will have to first remove him from the group and then we can delete him.
 
-    ![Alt text](image-6.png)
+    ![Alt text](./images/image-6.png)
 
 ### Group Management
 - ```sudo groupadd <groupname>``` -> this will creates group with mentioned name
 
-    ![Alt text](image-7.png)
+    ![Alt text](./images/image-7.png)
 
 - ```sudo usermod -G <groupname> <username>``` -> this command adds user to existing group
 
-    ![Alt text](image-8.png)
+    ![Alt text](./images/image-8.png)
 
     ***note: If we add a user to a group then it automatically gets removed from the previous groups, we can prevent this by the command given below***
 
 - ```sudo usermod -G <groupname> <username>``` -> this command adds user to existing group without removing previous groups
 
-    ![Alt text](image-9.png)
+    ![Alt text](./images/image-9.png)
 
 - ```sudo gpasswd -M <user1>, <user2> ... <group>``` -> To add multiple users to a group simultaneously, you can utilize the gpasswd command with the -M option. This command allows you to specify a list of usernames separated by commas.
 
@@ -52,31 +52,31 @@
     
     - case insensetive search
 
-        ![Alt text](image-10.png)
+        ![Alt text](./images/image-10.png)
     
     - Displaying the count of number of matches
 
-        ![Alt text](image-11.png)
+        ![Alt text](./images/image-11.png)
 
     - Display the file names that matches the pattern
 
-        ![Alt text](image-12.png)
+        ![Alt text](./images/image-12.png)
     
     - Checking for the whole words in a file
 
-        ![Alt text](image-13.png)
+        ![Alt text](./images/image-13.png)
 
     - Show line number while displaying the output using grep -n
 
-        ![Alt text](image-14.png)
+        ![Alt text](./images/image-14.png)
     
     - Matching the lines that start with a string
 
-        ![Alt text](image-15.png)
+        ![Alt text](./images/image-15.png)
 
     - Matching the lines that end with a string
 
-        ![Alt text](image-16.png)
+        ![Alt text](./images/image-16.png)
 
 - find command
 
@@ -95,17 +95,17 @@
         
         in below example, it seeks "test.txt" within current folder
 
-        ![Alt text](image-17.png)
+        ![Alt text](./images/image-17.png)
     
     - Search Files with a Pattern Using
 
         In this case, it identifies files ending with ‘.txt’ within the current directory.
 
-        ![Alt text](image-18.png)
+        ![Alt text](./images/image-18.png)
     
     - Empty Files and Directories
 
-        ![Alt text](image-19.png)
+        ![Alt text](./images/image-19.png)
     
 - awk command
 
@@ -126,16 +126,16 @@
         ```awk '{print}' employee.txt```
     
     - Print the lines which match the given pattern.
-        ![Alt text](image-20.png)
+        ![Alt text](./images/image-20.png)
     
     - Printing specfic columns
-        ![Alt text](image-21.png)
+        ![Alt text](./images/image-21.png)
 
     - Display Line Number
-        ![Alt text](image-22.png)
+        ![Alt text](./images/image-22.png)
 
     - Display Line From specific line number to specific line number
-        ![Alt text](image-23.png)
+        ![Alt text](./images/image-23.png)
 
 - file permission
     

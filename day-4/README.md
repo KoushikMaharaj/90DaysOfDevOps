@@ -82,15 +82,15 @@
         ORS: ORS command stores the output record separator, which separates the output lines when Awk prints them.
         The default is a newline character. print automatically outputs the contents of ORS at the end of whatever it is given to print. 
         ```
-- file permission commands
+- file permission
 
-    ![Alt text](image.png)
+    ![Alt text](./images/image.png)
    There’s a lot of information in those lines. 
 
     1. The first character indicates it is file or directory.
     2. The next nine characters (rw-r–r–) shows the security.
         
-        ![Alt text](./image-1.png)
+        ![Alt text](./images//image-1.png)
 
     3. The next column shows the owner of the file. (Here it is `root`)
     4. The next column shows the group owner of the file. (Here it is `root` which has special access to these files)
