@@ -36,7 +36,7 @@
 
     ***note: If we add a user to a group then it automatically gets removed from the previous groups, we can prevent this by the command given below***
 
-- ```sudo usermod -G <groupname> <username>``` -> this command adds user to existing group without removing previous groups
+- ```sudo usermod -aG <groupname> <username>``` -> this command adds user to existing group without removing previous groups
 
     ![Alt text](./images/image-9.png)
 
