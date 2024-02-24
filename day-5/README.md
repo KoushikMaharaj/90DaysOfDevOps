@@ -1,29 +1,31 @@
 # Linux Shell Scripting Part 1
+
 Before start learning linux shell scripting let's dive into following three concepts
-    
-### What is kernel?
+
+## What is kernel?
 
 Kernel is core component of an operating systemwhich manages operations of computer and hardware. Kernel acts as a bridge between applications and data processing performed at hardware level using inter-process communication and system calls. It is computer program.
 
 In short kernel communicates with hardware over shell commands.
 
-### What is shell?
+## What is shell?
 
 A shell is special user program which provide an interface to user to use operating system services. Shell accept human readable commands from user and convert them into something which kernel can understand. It is a command language interpreter that execute commands read from input devices such as keyboards or from files. The shell gets started when the user logs in or start the terminal.
 
-### What is linux shell scripting? 
+## What is linux shell scripting?
 
 A shell script is a computer program designed to be run by a linux shell, a command-line interpreter. The various dialects of shell scripts are considered to be scripting languages. Typical operations performed by shell scripts include file manipulation, program execution, and printing text.
 
 So from above point we knew that shell scripting is programming language. But what is importance of shell script for DevOps engineer? Why DevOps engineer must know it? Let's see below point.
 
-### What is Shell Scripting for DevOps?
+## What is Shell Scripting for DevOps?
 
 Shell script is set of commands/computer program which can be used by DevOps engineer to automate repetitive tasks, streamlining deployment and management of application.
 
 For example, there is task to backup log files of application and send them to another server. In this scenario DevOps engineer can write the shell script which executes this task.
 
-### Basic scripts
+## Basic scripts
+
 - Hello World Script
 
     ``` bash
@@ -31,6 +33,7 @@ For example, there is task to backup log files of application and send them to a
 
         echo "Hello World!!!"
     ```
+
     ![Alt text](./images/image.png)
 
 - User input and print
@@ -42,6 +45,7 @@ For example, there is task to backup log files of application and send them to a
 
         echo "$name"
     ```
+
     ![alt text](./images/image-1.png)
 
 - Compare two numbers
@@ -65,9 +69,9 @@ For example, there is task to backup log files of application and send them to a
 
     ![alt text](./images/image-2.png)
 
-From above scripts what is first line i.e. ```#!/bin/bash ```
+From above scripts what is first line i.e. ```#!/bin/bash```
 
-### What is Shebang?
+## What is Shebang?
 
 In computing, a shebang is the character sequence consisting of the characters number sign and exclamation mark (#!) at the beginning of a script. It is also called sharp-exclamation, sha-bang, hashbang, pound-bang or hash-pling.
 
