@@ -69,6 +69,6 @@ I have developed project using shell script. This project is on user and group m
 - Modularity in shell scripts
 - Switch case
 
-[Project-1](./project/shell_script_project.sh)
+[Project-1](https://github.com/KoushikMaharaj/DevOpsProjects/tree/master/project-1)
 
 [← Previous Day](../day-5/README.md) | [Next Day →](../day-7/README.md)
