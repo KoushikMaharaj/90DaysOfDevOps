@@ -41,7 +41,7 @@ I am installing docker on Ubuntu-22.04. Ubuntu uses apt-get package manager.
     you can use following command also
 
     ```bash
-        sudo docker version
+        sudo docker --version
     ```
 
     ![Alt text](./images/image-1.png)
